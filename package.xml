@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>righTune_Conversion</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>righTune conversion</summary>
+    <description>righTune conversion</description>
+    <notes>No Notes</notes>
+    <authors><author><name>righTune</name><user>righTune</user><email>info@righTune.com</email></author></authors>
+    <date>2013-12-15</date>
+    <time>21:10:29</time>
+    <contents><target name="magecommunity"><dir name="RighTune"><dir name="Conversion"><dir name="Block"><file name="Conversion.php" hash="2cc250bdf7a79484e8e9d71c1fd94382"/></dir><dir name="Helper"><file name="Data.php" hash="e17037affc7d3eb3b5b0fec3ae30f312"/></dir><dir name="etc"><file name="config.xml" hash="38c5a7fd91a31e60ce9c45ec933abb30"/><file name="system.xml" hash="e1e5bd1c743ef1403cbd849c875c8c20"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="rightuneconversion.xml" hash="cefc63062ce57377e11ab613022ca92b"/></dir><dir name="template"><dir name="rightuneconversion"><file name="rightune_conversion.phtml" hash="36f5e44d41ffe19f73a5ee59d42d3783"/><file name="rightune_success.phtml" hash="35c84b02e722e47edab369d4dfcfed1e"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="RighTune_Conversion.xml" hash="794b99013b901cd686b048aab206c5fd"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package><extension><name>gd</name><min>2.0.28</min><max>3.0</max></extension></required></dependencies>
+</package>

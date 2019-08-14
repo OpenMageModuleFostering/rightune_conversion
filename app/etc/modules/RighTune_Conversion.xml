@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <RighTune_Conversion>
+            <active>true</active>
+            <codePool>community</codePool>
+        </RighTune_Conversion>
+    </modules>
+</config>

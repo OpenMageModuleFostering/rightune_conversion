@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <modules>
+      <RighTune_Conversion>
+         <version>1.0.0</version>
+      </RighTune_Conversion>
+   </modules>
+
+    <global>
+        <models>
+            <conversion>
+                <class>RighTune_Conversion_Model</class>
+            </conversion>
+        </models>
+        <helpers>
+            <conversion>
+                <class>RighTune_Conversion_Helper</class>
+            </conversion>
+        </helpers>
+        <blocks>
+            <conversion>
+                <class>RighTune_Conversion_Block</class>
+            </conversion>
+        </blocks>
+	</global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <conversion>
+                    <file>rightuneconversion.xml</file>
+                </conversion>
+            </updates>
+        </layout>
+    </frontend>
+	<adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <rightune_options>
+                                            <title>Store Hello World Module Section</title>
+                                        </rightune_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>
