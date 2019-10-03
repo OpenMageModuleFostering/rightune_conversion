@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/righTune_Conversion",
+    "name": "OpenMageModuleFostering\/righTune_Conversion",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "righTune conversion",
     "authors": [
-    {
-        "name": "righTune",
-        "email": "info@righTune.com"
-    }
-],
+        {
+            "name": "righTune",
+            "email": "info@righTune.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
